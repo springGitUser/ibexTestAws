@@ -26,7 +26,7 @@ public class Widgets {
 	@Column(name="basicsettings")
 	private String basicSettings;
 	
-	@JsonProperty(access = Access.WRITE_ONLY)
+	//@JsonProperty(access = Access.WRITE_ONLY)
 	@Transient
 	private BasicSettings basicSettingsPojo;
 
